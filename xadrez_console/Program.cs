@@ -6,7 +6,12 @@ namespace xadrez_console {
         static void Main(string[] args) {
 
             Tabuleiro tab = new Tabuleiro(8,8);
+            tab.colocarPeca( ,new Posicao(0,0));
+            tab.colocarPeca( , new Posicao(5, 3));
+
+
             Tela.imprimirTabuleiro(tab);
+
         }
     
     }
